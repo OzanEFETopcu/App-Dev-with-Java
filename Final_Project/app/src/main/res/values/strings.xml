@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Final_Project</string>
+    <string name="go_to_search">Go To Search</string>
+    <string name="button1">Button</string>
+    <string name="button2">Button</string>
+    <string name="button3">Button</string>
+    <string name="button4">Button</string>
+    <string name="button5">Button</string>
+    <string name="button6">Button</string>
+    <string name="button7">Button</string>
+    <string name="button8">Button</string>
+    <string name="button9">Button</string>
+    <string name="button10">Button</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="lyrics_search">Lyrics Search</string>
+    <string name="song_name">Song Name</string>
+    <string name="search">Search</string>
+</resources>

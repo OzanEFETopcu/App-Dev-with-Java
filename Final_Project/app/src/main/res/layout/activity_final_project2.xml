@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Final_Project2">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="244dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="openPreviousActivity"
+        android:text="@string/go_to_search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="55dp"
+        android:onClick="openLyricsPage"
+        android:tag="0"
+        android:text="@string/button1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/option9"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:onClick="openLyricsPage"
+        android:tag="8"
+        android:text="@string/button9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option7" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:onClick="openLyricsPage"
+        android:tag="3"
+        android:text="@string/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option2" />
+
+    <Button
+        android:id="@+id/option6"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:onClick="openLyricsPage"
+        android:tag="5"
+        android:text="@string/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option4" />
+
+    <Button
+        android:id="@+id/option8"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:onClick="openLyricsPage"
+        android:tag="option8"
+        android:text="@string/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option6" />
+
+    <Button
+        android:id="@+id/option10"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:onClick="openLyricsPage"
+        android:tag="9"
+        android:text="@string/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option8" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:onClick="openLyricsPage"
+        android:tag="2"
+        android:text="@string/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option1" />
+
+    <Button
+        android:id="@+id/option5"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:onClick="openLyricsPage"
+        android:tag="4"
+        android:text="@string/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option3" />
+
+    <Button
+        android:id="@+id/option7"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:onClick="openLyricsPage"
+        android:tag="6"
+        android:text="@string/button7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option5" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="135dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="55dp"
+        android:onClick="openLyricsPage"
+        android:tag="1"
+        android:text="@string/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

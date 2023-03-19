@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="go_to_search">Aramaya git</string>
+    <string name="button1">BUTON</string>
+    <string name="button2">BUTON</string>
+    <string name="button4">BUTON</string>
+    <string name="button3">BUTON</string>
+    <string name="button5">BUTON</string>
+    <string name="button6">BUTON</string>
+    <string name="button7">BUTON</string>
+    <string name="button8">BUTON</string>
+    <string name="button9">BUTON</string>
+    <string name="button10">BUTON</string>
+    <string name="lyrics">Sözler</string>
+    <string name="lyrics_search">Söz Ara</string>
+    <string name="song_name">Sarki Adi</string>
+    <string name="search">Ara</string>
+</resources>
